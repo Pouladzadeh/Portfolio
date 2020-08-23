@@ -1,0 +1,667 @@
+<!--
+  Hello!
+  -
+  Simplefolio is a clean and responsive portfolio template for Developers!
+  Created by Jacobo Martinez.
+  -
+  Github Repo: https://github.com/cobidev/simplefolio/
+  Readme: https://github.com/cobidev/simplefolio/README.md
+  -
+  For business & inquires, contact me -> jacobojavier98@gmail.com
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
+
+    <!-- Put here your site title -->
+    <title>Parvaneh Pouladzadeh | Developer</title>
+    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="[username], [name], skill" />
+    <!-- Improve your SEO by adding a small descrption of you -->
+    <meta name="description" content="[Your name here] | Developer" />
+
+    <!-- Required librarys -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({ reset: false });
+    </script>
+
+    <!-- Remove this script once you setup your custom portfolio -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <!-- Follow the HTML instructions to create your stunning portfolio website -->
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <div id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title" class="load-hidden">
+          Hi, my name is
+          <span class="text-color-main">Parvaneh Pouladzadeh</span>
+          <br />
+          I'm a web Developer.
+        </h1>
+        <p class="hero-cta" class="load-hidden">
+          <a class="cta-btn cta-btn--hero" href="#about">Know more</a>
+        </p>
+      </div>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">
+          About me
+        </h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image">
+              <img
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="./assets/indexxxx.jpg"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info">
+              <p class="about-wrapper__info-text justify">
+                Accomplished and dynamic software developer with MSc in Computer
+                Engineering from University of Ottawa. Possessed a strong
+                understanding of building and maintaining responsive websites.
+                Proficient in HTML, CSS, Javascript, React, Angular, Python
+                (Flask, Django) and Database System (Postgresql, MongoDB).
+                Proven team-work spirit, commitment, and communication skills.
+              </p>
+              <p class="about-wrapper__info-text">
+                <!-- Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Excepturi neque, ipsa animi maiores repellendu distinctioaperiam
+                earum dolor voluptatum consequatur blanditiis inventore debitis
+                fuga numquam voluptate architecto itaque molestiae. -->
+              </p>
+              <span class="d-flex mt-3">
+                <a
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="https://drive.google.com/file/d/1wzaWYZ3mWKTet_07i84fsRCD7Ey9UrBv/view?usp=sharing"
+                >
+                  View Resume
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">
+            Projects
+          </h2>
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Robo Friends</h3>
+                <div>
+                  <p class="mb-4">
+                    This project is a single page application where the user can
+                    search for robot friends among all. Built with HTML5, CSS3,
+                    JavaScript, React, tachyons, robohash API.
+                  </p>
+                </div>
+
+                <a
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://youtu.be/QsRCiZFi97I"
+                >
+                  See Live
+                </a>
+                <a
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Pouladzadeh/robofriends"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/robo.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Pet Medicine</h3>
+                <div>
+                  <p class="mb-4">
+                    This is an interface built with Angular framework in order
+                    to make appointments for a pet doctor. There is a form that
+                    lets people add appointments, read a list of the
+                    appointments from a file, delete, and modify search those
+                    appointments.
+                  </p>
+                </div>
+
+                <a
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://youtu.be/RESpGPRVyps"
+                >
+                  See Live
+                </a>
+                <a
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Pouladzadeh/angular-interface"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/Pet.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Order Pizza Online</h3>
+                <div>
+                  <p class="mb-4">
+                    Web application for handling a pizza restaurant’s online
+                    orders. The Orders Application contains User Registration
+                    and Log In functionality. Users are able to choose different
+                    items from the menu, add to Watchlist and camcel their
+                    orders. Also Site administrators (restaurant owners) should
+                    be able to add, update, and remove items on the menu. This
+                    application built with HTML, CSS, Bootstrap, Python, Django
+                    web server.
+                  </p>
+                </div>
+                <a
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://youtu.be/ux0_aJFam3w"
+                >
+                  See Live
+                </a>
+                <a
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Pouladzadeh/Pizza"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/pizza.jpeg" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">E-commerce</h3>
+                <div>
+                  <p class="mb-4">
+                    This is an eBay-like e-commerce auction site that will allow
+                    users to post auction listings, place bids on listings,
+                    comment on those listings, and add listings to a
+                    “watchlist.” This application built with HTML, CSS,
+                    Bootstrap, Python, Django web server.
+                  </p>
+                </div>
+                <a
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://youtu.be/5A3m6ZL8PVA"
+                >
+                  See Live
+                </a>
+                <a
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Pouladzadeh/e-commerce"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/Auction.jpeg" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Mail</h3>
+                <div>
+                  <p class="mb-4">
+                    Front-end for an email client that makes API calls to send
+                    and receive emails. The specification of the app contains
+                    Send Email, View Email, Archieve and Unarchive, and Reply.
+                    Application built with HTML, CSS, Bootsrtap, javascript,
+                    with Django framework.
+                  </p>
+                </div>
+                <a
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://youtu.be/5mrP3jSyHEo"
+                >
+                  See Live
+                </a>
+                <a
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Pouladzadeh/Mail"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/mail.jpeg" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Online Chat Room</h3>
+                <div>
+                  <p class="mb-4">
+                    This chatroom slack-like application allows users to sign up
+                    and create channels and start communication. This
+                    application uses Python Flask and JavaScript (Socket.IO to
+                    communicate between clients and servers).
+                  </p>
+                </div>
+                <a
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://youtu.be/tG9aNgkk5X8"
+                >
+                  See Live
+                </a>
+                <a
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Pouladzadeh/Online-chatroom"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/ChatRoom.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Wikipedia</h3>
+                <div>
+                  <p class="mb-4">
+                    Wiki project lets you edit and create wikipedia types pages,
+                    in which users be able to fill the entry infromation using
+                    markup language which is auto translated to HTML. Also lets
+                    you search and read and edit from the list of entries
+                    submitted to the site. Using Django framework, HTML and CSS
+                    has been used to create this site.
+                  </p>
+                </div>
+                <a
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://youtu.be/BCUiIm-6fno"
+                >
+                  See Live
+                </a>
+                <a
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Pouladzadeh/Wikipedia"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/wiki.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">
+                  Book Review
+                </h3>
+                <div>
+                  <p class="mb-4">
+                    Book review is a project in order to Search for the book by
+                    its ISBN, author name, or title , Get the information about
+                    the book and write your review with API acssess. Built with
+                    HTML, CSS, Flask and Heroku Postgres DB.
+                  </p>
+                </div>
+                <a
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://youtu.be/16gemC4NYyA
+            "
+                >
+                  See Live
+                </a>
+                <a
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Pouladzadeh/Book-Review"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/Book.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Wheather App</h3>
+                <div>
+                  <p class="mb-4">
+                    A mobile responsive appilicatin in which you can check
+                    weather by city name. Used technologies consists of HTML5,
+                    CSS3, Bootsrtap4, Vanila JS, jQuery, and OpenWeatherMap API.
+                  </p>
+                </div>
+                <a
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://pouladzadeh.github.io/Weather-app/"
+                >
+                  See Live
+                </a>
+                <a
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Pouladzadeh/Weather-app"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/weatherapp.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">
+                  Course Enrollment System
+                </h3>
+                <div>
+                  <p class="mb-4">
+                    This is a course enrollment system in which users are able
+                    to register for website and then log in using their username
+                    and password. Once they log in, they are able to see the
+                    created courses and get enrolled in the courses. There is
+                    the ability to use the courses via API. The system is mobile
+                    responsive. This project is built with python flask and have
+                    access to MongoDB as a database.
+                  </p>
+                </div>
+                <a
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://youtu.be/9BPGkujmn8Y"
+                >
+                  See Live
+                </a>
+                <a
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Pouladzadeh/Course-Enrollment-System.git"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/course.jpeg" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">
+                  Portfolio
+                </h3>
+                <div>
+                  <p class="mb-4">
+                    This portfolio website built with HTML, CSS, Bootsrap4. The
+                    website is fully static and it is mobile responsive.
+                  </p>
+                </div>
+                <a
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://pouladzadeh.github.io/Personal-Homepage/"
+                >
+                  See Live
+                </a>
+                <a
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Pouladzadeh/Personal-Homepage"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/college.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">
+          Contact
+        </h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">
+            parvaneh.pouladzadeh@gmail.com
+          </p>
+          <a
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:example@email.com"
+            >Call to Action</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <!-- <a href="#!" target="_blank">
+            <i class="fa fa-twitter fa-inverse"></i>
+          </a>
+          <a href="#!" target="_blank">
+            <i class="fa fa-codepen fa-inverse"></i>
+          </a> -->
+          <a
+            href="https://www.linkedin.com/in/parvaneh-pouladzadeh-1bb92797/"
+            target="_blank"
+          >
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a href="https://github.com/Pouladzadeh" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+
+        <hr />
+
+        <!-- If you give me some credit, will be huge for me :) -->
+        <!-- <p class="footer__text">
+          © 2020 - Template developed by <a href="https://github.com/cobidev" target="_blank">Jacobo Martínez</a>
+          </a>
+        </p> -->
+
+        <!-- Remove this paragraph once you setup your custom portfolio -->
+        <!-- <p class="mt-3 pt-3">
+          <a
+            class="github-button"
+            href="https://github.com/cobidev/simplefolio/fork"
+            data-icon="octicon-repo-forked"
+            data-size="large"
+            data-show-count="true"
+            aria-label="Fork ntkme/github-buttons on GitHub"
+            >Fork</a
+          >
+          <a
+            class="github-button"
+            href="https://github.com/cobidev/simplefolio"
+            data-icon="octicon-star"
+            data-size="large"
+            data-show-count="true"
+            aria-label="Star cobidev/simplefolio on GitHub"
+            >Star</a
+          >
+        </p> -->
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+  </body>
+</html>
